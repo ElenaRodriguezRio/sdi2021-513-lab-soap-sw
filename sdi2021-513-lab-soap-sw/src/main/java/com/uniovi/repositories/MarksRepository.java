@@ -5,8 +5,11 @@ import com.uniovi.soap.ws.Mark;
 import com.uniovi.soap.ws.User;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
+@Component
 public class MarksRepository {
 	private static final Map<String, User> marks = new HashMap<>();
 
